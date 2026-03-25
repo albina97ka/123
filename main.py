@@ -100,9 +100,6 @@ def submit():
 
     )
 
-
-# Кнопка "Отправить"
-
 tk.Button(window, text="Отправить", command=submit).pack(pady=10)
 
 window.mainloop()
