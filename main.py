@@ -2,7 +2,6 @@ import tkinter as tk
 
 from tkinter import messagebox
 
-# Создаем главное окно
 
 window = tk.Tk()
 
@@ -51,7 +50,6 @@ cpp_var = tk.IntVar()
 
 tk.Label(window, text="Какие технологии знаешь?").pack()
 
-# Создаем галочки
 
 tk.Checkbutton(window, text="Python", variable=python_var).pack(anchor="w")
 
